@@ -85,7 +85,7 @@ class HighTempler
 	}			
 }//end of class HighTempler
 
-class drone
+class Drone
 {
 	public String name = "일벌레";
 	public String description = "기본 일꾼 유닛입니다. 광물과 베스핀 가스를 채취할 수 있습니다. 구조물로 변이할 수 있습니다.";
@@ -219,9 +219,9 @@ class drone
 		this.skill6Cooldown = 1+delay;
 		return situation = "잠복 해제";
 	}	
-}
+}//end of class Drone
 
-class marine
+class Marine
 {
 	public String name = "해병";
 	public String description = "다목적 보병입니다.";
@@ -265,4 +265,4 @@ class marine
 		attackSpeed = this.attackSpeed[1];
 		int duration = 15;
 	}
-}
+}//end of class Marine
