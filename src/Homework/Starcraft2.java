@@ -4,7 +4,7 @@ public class Starcraft2
 {
 }
 
-class HighTempler
+class HighTempler1
 {	
 	public String name = "고위 기사";
 	public String description = "강한 사이오닉 능력을 지니고 있습니다. 환류를 사용할 수 있고 업그레이드하면 사이오닉 폭풍을 사용할 수 있습니다. 집정관으로 변신할 수 있습니다.";
@@ -85,7 +85,7 @@ class HighTempler
 	}			
 }//end of class HighTempler
 
-class Drone
+class Drone1
 {
 	public String name = "일벌레";
 	public String description = "기본 일꾼 유닛입니다. 광물과 베스핀 가스를 채취할 수 있습니다. 구조물로 변이할 수 있습니다.";
@@ -221,7 +221,7 @@ class Drone
 	}	
 }//end of class Drone
 
-class Marine
+class Marine1
 {
 	public String name = "해병";
 	public String description = "다목적 보병입니다.";
@@ -266,3 +266,4 @@ class Marine
 		int duration = 15;
 	}
 }//end of class Marine
+
