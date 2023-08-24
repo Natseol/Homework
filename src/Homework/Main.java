@@ -1,5 +1,7 @@
 package Homework;
 
+import Day0824.Phone;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -14,6 +16,12 @@ public class Main {
 		Marine m1 = new Marine();
 		String str2 = m1.skill.name;
 		System.out.println(str2);
+		
+//		Phone myPhone = new Phone();
+//		System.out.println(myPhone.number);
+//		System.out.println(myPhone.oprator);
+		
+		
 	}
 }
 
